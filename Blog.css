@@ -1,0 +1,144 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(238, 238, 246);
+    background: linear-gradient(rgba(227, 227, 250, 0.6), rgba(170, 163, 201, 0.8)), url("images/pexels-ketut-subiyanto-4126705.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.col-lg-12 h1 {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 1000;
+    color: #f8f9fa;
+}
+
+h3 {
+    color: rgb(27, 59, 58);
+}
+
+#title {
+    /* margin: 3% 15%; */
+    /* background-image: linear-gradient(to right, rgb(60, 60, 117), rgb(103, 79, 30)); */
+    background: linear-gradient(rgba(5, 5, 30, 0.6), rgba(9, 7, 18, 0.8)), url("images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+.btn-outline-success {
+    color: #a1300a;
+    border-color: #02120a;
+    font-weight: bold;
+}
+
+.container-fluid {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 3%
+}
+
+.t_button {
+    margin: 5% 3% 5% 0;
+}
+
+.navbar-brand {
+    color: rgb(241, 240, 240) !important;
+    font-size: 3rem;
+    font-family: 'Poppins Bold';
+}
+
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar {
+    padding: 0 0 0 4.5rem;
+
+}
+
+.xyz {
+    padding-top: 2rem;
+    transition: color 0.2s ease-in-out;
+}
+
+
+.textbox {
+    text-align: center;
+    padding-top: 7%;
+}
+
+.program {
+    width: 70%;
+    margin: auto;
+    padding-top: 150px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.program h2 {
+    padding-top: 30px;
+}
+
+.program p {
+    padding-right: 10px;
+    color: #7d7877;
+}
+
+/* form  */
+.comment {
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px
+}
+
+.comment h3 {
+    text-align: left;
+}
+
+.commentBox input,
+.commentBox textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+}
+
+
+/* footer  */
+.footer {
+    text-align: center;
+    padding: 30px 0;
+    margin: 50px auto;
+    width: 80%;
+}
+
+.footer h4 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 800px;
+}
+
+.footer i {
+    padding-left: 20px;
+    cursor: pointer;
+    color: #2a79b5;
+}
+
+.footer p i {
+    padding-left: 0;
+    margin-top: 10px;
+    color: red;
+
+}
+
+@media(min-width:996px) {
+    .form {
+        padding-left: 200px;
+        padding-top: 33px;
+    }
+}

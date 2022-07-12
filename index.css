@@ -1,0 +1,279 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(238, 238, 246);
+}
+
+.col-lg-12 h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 1000;
+    color: #f8f9fa;
+}
+
+#title h3 {
+    color: white;
+}
+
+h3 {
+    color: rgb(24, 83, 114);
+}
+
+#title {
+    /* margin: 3% 15%; */
+    /* background-image: linear-gradient(to right, rgb(60, 60, 117), rgb(103, 79, 30)); */
+    background: linear-gradient(rgba(5, 5, 30, 0.6), rgba(9, 7, 18, 0.8)), url("images/image3.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.btn-outline-success {
+    color: #a1300a;
+    border-color: #02120a;
+    font-weight: bold;
+}
+
+.container-fluid {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 3%
+}
+
+.t_button {
+    margin: 5% 3% 5% 0;
+}
+
+.navbar-brand {
+    color: rgb(241, 240, 240) !important;
+    font-size: 3rem;
+    font-family: 'Poppins Bold';
+}
+
+
+.nav-link {
+    color: white !important;
+}
+
+
+
+.navbar {
+    padding: 0 0 0 4.5rem;
+
+}
+
+.xyz {
+    padding-top: 2rem;
+    transition: color 0.2s ease-in-out;
+}
+
+
+.textbox {
+    text-align: center;
+    padding-top: 7%;
+}
+
+/* Course */
+.course {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.course p {
+    padding: 2% 10%;
+    line-height: 1.5;
+    color: #937979;
+}
+
+.course h1 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.course .row {
+    margin-top: 5%;
+    justify-content: space-between;
+}
+
+.content1,
+.content2,
+.content3 {
+    flex-basis: 31%;
+    padding-top: 2%;
+    background: #fff3f3;
+    margin-bottom: 5%;
+    border-radius: 20px;
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.course_content:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.campus {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.card {
+    overflow: hidden;
+    background-size: cover;
+    opacity: 0.4;
+    transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+    opacity: 1;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+.facilities {
+    width: 80%;
+    padding-top: 100px;
+    margin: auto;
+}
+
+.img-fluid {
+    border-radius: 6%;
+}
+
+.facilities .row {
+    padding-top: 5%;
+}
+
+.facilities h3 {
+    padding-top: 45px;
+}
+
+/* testimonials */
+
+.testimonials {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.testimonials p {
+    padding: 2% 10%;
+    line-height: 1.5;
+    color: #937979;
+}
+
+.testimonials .row {
+    margin-top: 5%;
+    justify-content: space-between;
+}
+
+.testimonial-col {
+    background: #fff3f3;
+}
+
+
+.testimonials img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+.contentx,
+.contenty,
+.contentz {
+    flex-basis: 31%;
+    padding-top: 2%;
+    background: #fff3f3;
+    margin-bottom: 5%;
+    border-radius: 20px;
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.ss {
+    color: #f44366;
+    padding-left: 1px;
+
+}
+
+.call {
+    text-align: center;
+    width: 80%;
+    margin: 80px auto;
+    background: linear-gradient(rgba(5, 5, 30, 0.6), rgba(9, 7, 18, 0.8)), url("images/banner2.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 70px 0;
+}
+
+.call h1 {
+    color: #fff;
+    padding: 0;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px 0;
+    margin: 50px auto;
+    width: 80%;
+}
+
+.footer h4 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 600px;
+}
+
+.footer i {
+    padding-left: 20px;
+    cursor: pointer;
+    color: #2a79b5;
+}
+
+.footer p i {
+    padding-left: 0;
+    margin-top: 10px;
+    color: red;
+}
+
+/* 
+.adjust {
+    width: 80%;
+    height: 200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+    padding: 7% 0;
+
+}
+
+.adjust .testimonial-col {
+    width: 400px;
+    height: 400px;
+    flex-basis: 32%;
+} */
+
+@media(min-width:996px) {
+    form {
+        padding-left: 200px;
+        padding-top: 33px;
+    }
+}
+
+@media(max-width:700px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+@media(max-width:700px) {
+    .call h1 {
+        font-size: 24px;
+    }
+}
