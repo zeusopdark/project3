@@ -17,7 +17,7 @@ h3 {
 #title {
     /* margin: 3% 15%; */
     /* background-image: linear-gradient(to right, rgb(60, 60, 117), rgb(103, 79, 30)); */
-    background: linear-gradient(rgba(5, 5, 30, 0.6), rgba(9, 7, 18, 0.8)), url("images/background.jpg");
+    background: linear-gradient(rgba(5, 5, 30, 0.6), rgba(9, 7, 18, 0.8)), url("background.jpg");
     background-size: cover;
     background-position: center;
     height: 60vh;
