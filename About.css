@@ -93,17 +93,23 @@ h3 {
     font-weight: 800px;
 }
 
+
 .footer i {
     padding-left: 20px;
     cursor: pointer;
     color: #2a79b5;
+    transition: color 0.4s ease-in-out;
 }
 
 .footer p i {
     padding-left: 0;
     margin-top: 10px;
-    color: red;
+    color: red !important;
 
+}
+
+.footer i:hover {
+    color: rgb(11, 9, 91);
 }
 
 @media(min-width:996px) {
